@@ -1,0 +1,40 @@
+{
+  "name": "astro-cross-context",
+  "version": "0.0.1",
+  "description": "Demo for multiple React contexts interacting with the same application",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "lint:types": "tsc -p ./tsconfig.lint.json",
+    "lint:es": "eslint ./src",
+    "format": "prettier --write ./src"
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peerreynders/astro-cross-context.git"
+  },
+  "keywords": [],
+  "author": "Peer Reynders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peerreynders/astro-cross-context/issues"
+  },
+  "homepage": "https://github.com/peerreynders/astro-cross-context#readme",
+  "devDependencies": {
+    "@astrojs/react": "^0.1.3",
+    "@types/react": "^18.0.14",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "astro": "^1.0.0-beta.51",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
+  },
+  "dependencies": {
+    "nanostores": "^0.5.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

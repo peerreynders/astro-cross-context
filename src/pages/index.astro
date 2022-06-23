@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Island from '../components/Island';
+import Filler from '../components/Filler.astro';
+---
+<Layout title="Astro Cross Context Demo">
+	<main>
+    <Island appContextKey="Island0" client:idle />
+    <Island appContextKey="Island1" client:idle />
+    <Filler />
+    <Island appContextKey="Island2" client:idle />
+    <Island appContextKey="Island3" client:idle />
+	</main>
+</Layout>
